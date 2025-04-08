@@ -1,0 +1,12 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": ["react", "simple-import-sort", "unused-imports"],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "unused-imports/no-unused-imports": "error"
+  },
+  "settings": {
+    "local-rules": "./eslint-local-rules"
+  }
+}
